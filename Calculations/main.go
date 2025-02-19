@@ -1,7 +1,7 @@
 package main
 
 import (
-	"Sgofiles/operations"
+	"Calculations/operations"
 	"fmt"
 )
 
