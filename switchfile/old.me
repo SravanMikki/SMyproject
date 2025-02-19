@@ -1,0 +1,29 @@
+package main
+
+import "fmt"
+
+func main() {
+	a, b := 15, 10 // Change values as needed
+
+	// Print all results in one line
+	fmt.Printf("Addition: %d | Subtraction: %d | Multiplication: %d | Division: %.2f\n",
+		Add(a, b), Sub(a, b), Multiply(a, b), Divide(a, b))
+}
+
+func Add(a, b int) int {
+	return a + b
+}
+
+// Subtraction (int)
+func Sub(a, b int) int {
+	return a - b
+}
+
+// Multiplication (int)
+func Multiply(a, b int) int {
+	return a * b
+}
+
+// Division (float)
+func Divide(a, b int) float64 {
+	return float64(a) / float64(b)
