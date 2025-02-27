@@ -1,0 +1,14 @@
+map[keyType]valueType - syntax
+example :- scores:= map[string]int{
+}
+Keys Must Be Unique:
+Each key in a map can only have one value. If you assign a new value to an existing key, it overwrites the old value.
+Keys Can Be Any Comparable Type:
+Keys can be strings, integers, floats, etc., but not slices, maps, or functions (because those can’t be compared with ==).
+Values Can Be Anything:
+Values can be any type: numbers, strings, structs, even other maps!
+Dynamic Size:
+Maps grow as you add more key-value pairs, unlike arrays with fixed sizes.
+Deleting Items:
+Use the delete function to remove a key-value pair.
+using for(loop) syntax:- for key, value := range mapName {}

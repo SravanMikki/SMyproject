@@ -1,0 +1,21 @@
+A pointer is a variable that stores the memory address of another variable.
+&x gives the memory address of x.
+*p modify or change the address
+p stores that address.
+Efficiency: If you have a big house (large data structure), instead of moving the whole house when you want to pass it around, you just pass the address. It's like giving someone the address rather than moving the house.
+Modify Original Data: If you want to change something in the house, you need the address to get inside. Functions can change the original data if you give them the address.
+package main
+
+import "fmt"
+
+func main() {
+
+	x := 10
+	p := &x
+
+	fmt.Println("Value of x: ", x)
+	fmt.Println("Value of p: ", p)
+	fmt.Println("Value of x: ", *p)
+	*p = 35
+	fmt.Println("Value of x: ", x)
+}

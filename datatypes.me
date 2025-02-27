@@ -1,0 +1,10 @@
+Format Specifier	Data Type	Example
+%d	Integer (int)	fmt.Printf("Number: %d\n", 42) → Number: 42
+%f	Float (float32/float64)	fmt.Printf("PI: %f\n", 3.1415) → PI: 3.141500
+%.2f	Float (with precision)	fmt.Printf("PI: %.2f\n", 3.1415) → PI: 3.14
+%s	String	fmt.Printf("Name: %s\n", "John") → Name: John
+%c	Character (rune)	fmt.Printf("Char: %c\n", 'A') → Char: A
+%t	Boolean (true/false)	fmt.Printf("Valid: %t\n", true) → Valid: true
+%v	Any value (default format)	fmt.Printf("Value: %v\n", 42) → Value: 42
+%T	Type of the value	fmt.Printf("Type: %T\n", 42.5) → Type: float64
+%p	Pointer address	fmt.Printf("Address: %p\n", &num) → Address: 0xc0000120f0
