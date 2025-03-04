@@ -1,3 +1,17 @@
+// Assignment 2: Temperature Converter
+// Use these: Methods, Receivers, Pointers
+// Problem Statement:
+// Create a program that converts temperatures between Celsius and Fahrenheit.
+// Requirements:
+// 1.⁠ ⁠Define a struct Temperature with a Value (float64).
+// 2.⁠ ⁠Implement methods:
+//   - ToFahrenheit() → Converts from Celsius to Fahrenheit.
+//   - ToCelsius() → Converts from Fahrenheit to Celsius.
+//
+// 3.⁠ ⁠Use pointers to modify the temperature directly.
+// Formula:
+// •⁠  ⁠°F = (°C × 9/5) + 32
+// •⁠  ⁠°C = (°F - 32) × 5/9
 package main
 
 import "fmt"
